@@ -1,0 +1,17 @@
+{
+  "name": "workshop42-webperformance-legacy-app",
+  "version": "0.0.1",
+  "description": "WarsawJS Workshop Webperformance Legacy App",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon --watch static --watch server server/index.js"
+  },
+  "author": "Patrycjusz Szydlo <patrycjusz.szydlo@gmail.com>",
+  "license": "GNU",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
